@@ -1,0 +1,23 @@
+{
+  "name": "projectbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc && node --env-file .env --watch server.js",
+    "gen": "tsc -w "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "fastify": "^4.27.0",
+    "prisma": "^5.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "typescript": "^5.4.5"
+  }
+}
